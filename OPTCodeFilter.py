@@ -150,7 +150,7 @@ for file in os.listdir():
 
 for filenames in os.listdir():
     if filenames.endswith(".txt"):
-        shutil.move(pathcp + filenames, destination + filenames)
+        shutil.move(path + filenames, destination + filenames)
 
 
 
